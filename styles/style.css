@@ -179,6 +179,33 @@ ul li>a{
  /* main section end */
 
  /* footer section start  */
+ footer{
+    height: 240px;
+    background: #0A0826;
+    text-align: center;
+    align-content: center;
+ }
+ .footer-heading{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+ }
+ .copy-right{
+    color: #D9DBE1;
+    font-size: 0.875rem;
+    padding: 5px 0;
+ }
+ .icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ .icons i{
+    
+    max-width: 32px;
+ }
  /* footer section end */
 /* small device responsive  */
 @media screen and (max-width:576px) {
